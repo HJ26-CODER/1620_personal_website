@@ -1,3 +1,4 @@
+
 body {
   background-color: darkred;
   font-family: Oswald,sans-serif;
@@ -7,7 +8,7 @@ body {
   text-decoration: none;
   text-transform: none;
   color: #e59500;
-  text-align: center;
+  
       
 }
 
@@ -22,8 +23,9 @@ h1 {
 p {
   color:#e5dada;
   font-family: Merriweather, serif;
-  text-align: center;
-  font-size: 15px;
+  text-align: none;
+  font-size: 30px;
+  
 
 }
 
@@ -32,7 +34,9 @@ nav {
   border:ridge;
   border-color: #21cad6;
   text-align: center;
-
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
 }
 #nav_wrapper {
   width: 960px;
@@ -71,4 +75,9 @@ li {
   font-size: 18px;
   color: #e59500;
   font-family: Satisfy, cursive;
+}
+
+img {
+  width: 170px;
+   
 }
