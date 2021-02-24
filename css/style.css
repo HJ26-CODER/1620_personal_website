@@ -2,19 +2,24 @@ body {
   margin: 0;
   padding: 0;
   background-color: antiquewhite;
-  color: #3a3846;
+  color: #DED9DD;
   font-size: 10px;
 }
 
+
+
 header {
   height: 20px;
-  background-color: #639a88;
+  background-color: #DED9DD;
 }
 
 h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 3rem;
   display: inline;
+  color: #3a3846;
+  
+  
 }
 
 o {
@@ -25,8 +30,93 @@ img {
   max-width: 500px;
   float: left;
   padding: 2rem;
+  position: sticky;
+  
 }
 
 li:nth-child(2) {
   padding: 2rem;
+}
+
+nav {
+  background-color: #3a3846;
+  border:ridge;
+  border-color: #3a3846;
+  text-align: left;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  font-size: 10px;
+  position: fixed;
+  width: 5000PX;
+  margin: bottom;
+  
+
+}
+#nav_wrapper {
+  width: 960px;
+  
+  text-align: left;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: bottom;
+  position: relative;
+  min-width: 200px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li:hover {
+  background-color: #3A5683;
+}
+nav ul li a, visited {
+  color: #002642;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 18px;
+  color: #DED9DD;
+  font-family: Satisfy, cursive;
+}
+
+img {
+  width: 500pX;
+  float: left;   
+  margin:  bottom;
+  
+  
+  
+   
+}
+
+
+p::first-line {
+  color:#3A5683;
+  font-variant: small-caps;
+}
+
+
+
+p {
+  font-size: 25px;
+  display: block;
+}
+
+section {
+  color: #BB8998;
 }
